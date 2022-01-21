@@ -85,6 +85,11 @@ div.shoes{
 
 div.shoes img{
     width: 100%;
+    transition: all 300ms ease-in-out;
+}
+
+div.shoes:hover img{
+    transform:  translateY(-5%) rotate(10deg);
 }
 
 div.shoes h2{
@@ -93,6 +98,11 @@ div.shoes h2{
     text-align: center;
     font-size: 5rem;
     letter-spacing: .5rem;
+    transition: all 300ms ease-in-out;
+}
+
+div.shoes:hover h2{
+    transform:  scale(1.2);
 }
 
 #primascarpa{
