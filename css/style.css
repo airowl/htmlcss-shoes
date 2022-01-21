@@ -1,5 +1,5 @@
 html{
-    font-size: 62,5%;
+    font-size: 62.5%;
 }
 
 *,
@@ -17,7 +17,7 @@ html{
 }
 
 body{
-    font-family: sans-serif;
+    font-family: 'Russo One', sans-serif;
 }
 
 a, a:hover, a:active, a:focus, a:visited{
@@ -43,16 +43,16 @@ header{
 
 nav.nav_bar{
     float: right;
-    margin-top: 30px;
+    margin-top: 3rem;
 }
 
 .nav_bar li{
     display: inline-block;
-    width: 50px;
-    height: 50px;
+    width: 5rem;
+    height: 5rem;
     background-color: white;
     border-radius: 50%;
-    margin-left: 30px;
+    margin-right: 3rem;
 }
 
 .nav_bar li a{
@@ -61,6 +61,7 @@ nav.nav_bar{
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 /* SECTION */
@@ -71,17 +72,35 @@ section{
 }
 
 div.shoes{
-    border: 1px solid red;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 70rem;
 }
 
-div.shoes h1{
+div.shoes img{
+    width: 100%;
+}
+
+div.shoes h2{
+    width: 100%;
     text-transform: uppercase;
+    text-align: center;
+    font-size: 5rem;
+    letter-spacing: .5rem;
 }
 
 #primascarpa{
     background-color: red;
     color: yellow;
+}
+
+#secondascarpa{
+    background-color: green;
+    color: yellow;
+}
+
+#terzascarpa{
+    background-color: yellow;
+    color: green;
 }
