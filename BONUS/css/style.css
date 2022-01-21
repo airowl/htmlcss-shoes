@@ -1,0 +1,105 @@
+html{
+    font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body{
+    font-family: 'Russo One', sans-serif;
+}
+
+a, a:hover, a:active, a:focus, a:visited{
+    text-decoration: none;
+    color: #000;
+}
+
+.position_relative{
+    position: relative;
+}
+
+.position_absolute{
+    position: absolute;
+}
+
+/* HEADER */
+
+header{
+    width: 100vw;
+    position: fixed;
+    z-index: 10;
+}
+
+nav.nav_bar{
+    float: right;
+    margin-top: 3rem;
+}
+
+.nav_bar li{
+    display: inline-block;
+}
+
+.nav_bar li a{
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 3rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1.6rem;
+    text-align: center;
+}
+
+/* SECTION */
+
+section{
+    width: 100vw;
+    height: 100vh;
+}
+
+div.shoes{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70rem;
+}
+
+div.shoes img{
+    width: 100%;
+}
+
+div.shoes h2{
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 5rem;
+    letter-spacing: .5rem;
+}
+
+#primascarpa{
+    background-color: red;
+    color: yellow;
+}
+
+#secondascarpa{
+    background-color: green;
+    color: yellow;
+}
+
+#terzascarpa{
+    background-color: yellow;
+    color: green;
+}
